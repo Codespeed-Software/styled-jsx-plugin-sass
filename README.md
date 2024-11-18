@@ -1,11 +1,7 @@
-<h1 align="center">Thream/styled-jsx-plugin-sass</h1>
+<h1 align="center">Codespeed-Software/styled-jsx-plugin-sass</h1>
 
 <p align="center">
   <strong>Plugin to add <a href="https://sass-lang.com/">Sass</a> support to <a href="https://github.com/vercel/styled-jsx">styled-jsx</a>.</strong>
-</p>
-
-<p align="center">
-  <strong>⚠️ This project is not maintained anymore, you can still use the code as you wish and fork it to maintain it yourself.</strong>
 </p>
 
 <p align="center">
@@ -13,8 +9,8 @@
   <a href="./LICENSE"><img src="https://img.shields.io/badge/licence-MIT-blue.svg" alt="Licence MIT"/></a>
   <a href="./CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Contributor Covenant" /></a>
   <br />
-  <a href="https://github.com/Thream/styled-jsx-plugin-sass/actions/workflows/lint.yml"><img src="https://github.com/Thream/styled-jsx-plugin-sass/actions/workflows/lint.yml/badge.svg?branch=develop" /></a>
-  <a href="https://github.com/Thream/styled-jsx-plugin-sass/actions/workflows/test.yml"><img src="https://github.com/Thream/styled-jsx-plugin-sass/actions/workflows/test.yml/badge.svg?branch=develop" /></a>
+  <a href="https://github.com/Codespeed-Software/styled-jsx-plugin-sass/actions/workflows/lint.yml"><img src="https://github.com/Codespeed-Software/styled-jsx-plugin-sass/actions/workflows/lint.yml/badge.svg?branch=develop" /></a>
+  <a href="https://github.com/Codespeed-Software/styled-jsx-plugin-sass/actions/workflows/test.yml"><img src="https://github.com/Codespeed-Software/styled-jsx-plugin-sass/actions/workflows/test.yml/badge.svg?branch=develop" /></a>
   <br />
   <a href="https://conventionalcommits.org"><img src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg" alt="Conventional Commits" /></a>
   <a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="semantic-release" /></a>
@@ -25,19 +21,19 @@
 
 Use [Sass](https://sass-lang.com/) with [styled-jsx](https://github.com/vercel/styled-jsx) 💥
 
-This repository was originally forked from [giuseppeg/styled-jsx-plugin-sass](https://github.com/giuseppeg/styled-jsx-plugin-sass) & it is not intended to take any credit but to improve the code from now on.
+This repository was originally forked from [Thream/styled-jsx-plugin-sass](https://github.com/Thream/styled-jsx-plugin-sass) which was forked from [giuseppeg/styled-jsx-plugin-sass](https://github.com/giuseppeg/styled-jsx-plugin-sass) & it is not intended to take any credit but to improve the code from now on.
 
 ## 💾 Install
 
 Install the package and [sass](https://www.npmjs.com/package/sass) version you need (it is a peer dependency).
 
 ```sh
-npm install --save-dev sass @styled-jsx/plugin-sass
+npm install --save-dev sass @codespeed/styled-jsx-plugin-sass
 ```
 
 ## ⚙️ Usage
 
-Add `@styled-jsx/plugin-sass` to the `styled-jsx`'s `plugins` in your babel configuration (e.g. `.babelrc.json`):
+Add `@codespeed/styled-jsx-plugin-sass` to the `styled-jsx`'s `plugins` in your babel configuration (e.g. `.babelrc.json`):
 
 ```json
 {
@@ -46,7 +42,7 @@ Add `@styled-jsx/plugin-sass` to the `styled-jsx`'s `plugins` in your babel conf
       "next/babel",
       {
         "styled-jsx": {
-          "plugins": ["@styled-jsx/plugin-sass"]
+          "plugins": ["@codespeed/styled-jsx-plugin-sass"]
         }
       }
     ]
@@ -67,7 +63,7 @@ Sass can be configured using `sassOptions`. This is useful for setting options s
         "styled-jsx": {
           "plugins": [
             [
-              "@styled-jsx/plugin-sass",
+              "@codespeed/styled-jsx-plugin-sass",
               {
                 "sassOptions": {
                   "includePaths": ["./styles"],

@@ -1,6 +1,6 @@
 {
   "name": "@styled-jsx/plugin-sass",
-  "version": "0.0.0-development",
+  "version": "4.1.2",
   "description": "Plugin to add Sass support to styled-jsx.",
   "license": "MIT",
   "main": "index.js",
