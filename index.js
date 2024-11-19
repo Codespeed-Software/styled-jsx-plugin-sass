@@ -28,8 +28,18 @@ module.exports = (css, settings) => {
   const file = settings.babel && settings.babel.filename
 
   const preprocessed = sass
-    .renderSync(Object.assign({}, { file }, settings.sassOptions, { data }))
-    .css.toString()
+    .renderSync(
+      Object.assign(
+        {}, 
+        { file },
+        settings.sassOptions, 
+        {loader: 'sass-loader'},
+        {implementation: 'sass-embedded'},
+        {style: 'compressed'},
+        {api: 'modern-compiler'},
+        {silenceDeprecations: ['legacy-js-api']},
+        { data }
+      )).css.toString()
 
   return preprocessed
     .replace(

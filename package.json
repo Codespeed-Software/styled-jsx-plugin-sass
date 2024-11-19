@@ -1,5 +1,5 @@
 {
-  "name": "@styled-jsx/plugin-sass",
+  "name": "@codespeed/styled-jsx-plugin-sass",
   "version": "4.1.2",
   "description": "Plugin to add Sass support to styled-jsx.",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "provenance": true
+    "provenance": false
   },
   "keywords": [
     "styled-jsx-plugin",
@@ -45,7 +45,8 @@
     "test": "mocha test.js",
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "postpublish": "pinst --enable",
+    "prepare": "husky"
   },
   "dependencies": {
     "strip-indent": "3.0.0"
