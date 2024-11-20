@@ -37,7 +37,6 @@
     "index.js"
   ],
   "scripts": {
-    "lint:commit": "commitlint",
     "lint:editorconfig": "editorconfig-checker",
     "lint:markdown": "markdownlint-cli2",
     "lint:javascript": "standard",
@@ -53,13 +52,11 @@
   },
   "devDependencies": {
     "@types/node": "20.3.3",
-    "@commitlint/cli": "17.6.6",
-    "@commitlint/config-conventional": "17.6.6",
     "editorconfig-checker": "5.1.1",
-    "husky": "8.0.3",
+    "husky": "9.1.7",
     "markdownlint-cli2": "0.8.1",
     "markdownlint-rule-relative-links": "2.1.0",
-    "mocha": "10.2.0",
+    "mocha": "10.8.2",
     "pinst": "3.0.0",
     "sass": "1.63.6",
     "semantic-release": "21.0.6",
