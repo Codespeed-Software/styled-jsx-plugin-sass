@@ -21,12 +21,12 @@
   "author": "Marton Lederer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thream/styled-jsx-plugin-sass.git"
+    "url": "https://github.com/Codespeed-Software/styled-jsx-plugin-sass.git"
   },
   "bugs": {
-    "url": "https://github.com/Thream/styled-jsx-plugin-sass/issues"
+    "url": "https://github.com/Codespeed-Software/styled-jsx-plugin-sass/issues"
   },
-  "homepage": "https://github.com/Thream/styled-jsx-plugin-sass#readme",
+  "homepage": "https://github.com/Codespeed-Software/styled-jsx-plugin-sass#readme",
   "standard": {
     "envs": [
       "node",

@@ -21,7 +21,7 @@
 
 Use [Sass](https://sass-lang.com/) with [styled-jsx](https://github.com/vercel/styled-jsx) 💥
 
-This repository was originally forked from [Thream/styled-jsx-plugin-sass](https://github.com/Thream/styled-jsx-plugin-sass) which was forked from [giuseppeg/styled-jsx-plugin-sass](https://github.com/giuseppeg/styled-jsx-plugin-sass) & it is not intended to take any credit but to improve the code from now on.
+This repository was originally forked from [Codespeed-Software/styled-jsx-plugin-sass](https://github.com/Codespeed-Software/styled-jsx-plugin-sass) which was forked from [giuseppeg/styled-jsx-plugin-sass](https://github.com/giuseppeg/styled-jsx-plugin-sass) & it is not intended to take any credit but to improve the code from now on.
 
 ## 💾 Install
 

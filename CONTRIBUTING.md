@@ -1,14 +1,14 @@
 # 💡 Contributing
 
-Thanks a lot for your interest in contributing to **Thream/styled-jsx-plugin-sass**! 🎉
+Thanks a lot for your interest in contributing to **Codespeed-Software/styled-jsx-plugin-sass**! 🎉
 
 ## Code of Conduct
 
-**Thream** has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) as its Code of Conduct, and we expect project participants to adhere to it. Please read [the full text](./CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+**Codespeed-Software** has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) as its Code of Conduct, and we expect project participants to adhere to it. Please read [the full text](./CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
 ## Open Development
 
-All work on **Thream** happens directly on [GitHub](https://github.com/Thream). Both core team members and external contributors send pull requests which go through the same review process.
+All work on **Codespeed-Software** happens directly on [GitHub](https://github.com/Codespeed-Software). Both core team members and external contributors send pull requests which go through the same review process.
 
 ## Types of contributions
 
@@ -19,13 +19,13 @@ All work on **Thream** happens directly on [GitHub](https://github.com/Thream). 
 
 ## Pull Requests
 
-- **Please first discuss** the change you wish to make via [issue](https://github.com/Thream/styled-jsx-plugin-sass/issues) before making a change. It might avoid a waste of your time.
+- **Please first discuss** the change you wish to make via [issue](https://github.com/Codespeed-Software/styled-jsx-plugin-sass/issues) before making a change. It might avoid a waste of your time.
 
 - Ensure your code respect linting.
 
 - Make sure your **code passes the tests**.
 
-If you're adding new features to **Thream/styled-jsx-plugin-sass**, please include tests.
+If you're adding new features to **Codespeed-Software/styled-jsx-plugin-sass**, please include tests.
 
 ## Commits
 
